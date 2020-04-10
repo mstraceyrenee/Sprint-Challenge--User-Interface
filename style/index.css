@@ -190,3 +190,53 @@ header {
 #dodgerblue {
     background: dodgerblue;
 }
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin: 30px 5%;
+    }
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        text-align: center;
+    }
+    .header-nav a {
+        border: 1px solid silver;
+        padding: 5px 0;
+        border-radius: 5px;
+        color: silver;
+    }
+    .header-nav a:first-child {
+        background: silver;
+        border: 1px solid gray;
+        color: black;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+    .top-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-content .text-container {
+        width: 90%;
+    }
+    h2 {
+        font-weight: 700;
+    }
+    .middle-content h2 {
+        text-align: center;
+    }
+    .middle-content .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-content {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
