@@ -216,12 +216,16 @@ header {
         font-weight: 700;
         margin-top: 40px;
     }
+    .hero img {
+        width: 800px;
+    }
     .top-content {
         flex-direction: column;
         align-items: center;
+        width: 800px;
     }
     .top-content .text-container {
-        width: 90%;
+        width: 760px;
     }
     h2 {
         font-weight: 700;
@@ -233,10 +237,36 @@ header {
         flex-direction: column;
         align-items: center;
     }
+    .middle-content .boxes .box {
+        width: 150px;
+        height: 150px;
+    }
     .bottom-content {
         display: none;
     }
     footer {
         display: none;
+    }
+}
+@media (max-width: 500px) {
+    .header-nav {
+        width: 400px;
+    }
+    .hero img {
+        width: 500px;
+    }
+    .top-content {
+        align-items: flex-start;
+    }
+    .top-content .text-container {
+        width: 400px;
+        margin: 0 5%;
+    }
+    .middle-content {
+        width: 500px;
+    }
+    .middle-content .boxes .box {
+        width: 150px;
+        height: 150px;
     }
 }
