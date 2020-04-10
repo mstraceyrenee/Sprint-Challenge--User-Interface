@@ -146,16 +146,47 @@ footer nav a {
 }
 header {
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: center;
     align-items: baseline;
-    margin: 20px 40px;
+    margin: 30px 12%;
 }
 .header-nav a {
     text-decoration: none;
     color: black;
     padding: 40px;
 }
-hero {
-    width: 800px;
-
+.hero {
+    margin: 20px 12%;
+    display: flex;
+    justify-content: center;
+}
+#teal {
+    background: teal;
+}
+#gold {
+    background: gold;
+}
+#cadetblue {
+    background: cadetblue;
+}
+#coral {
+    background: coral;
+}
+#crimson {
+    background: crimson;
+}
+#forestgreen {
+    background: forestgreen;
+}
+#darkorchid {
+    background: darkorchid;
+}
+#hotpink {
+    background: hotpink;
+}
+#indigo {
+    background: indigo;
+}
+#dodgerblue {
+    background: dodgerblue;
 }
